@@ -1,0 +1,39 @@
+# Setup
+title:        TODO #TODO:大标题
+tagline:      NEED TODO #TODO:二级标题
+url:          "http://172.16.1.114/TODO/" #TODO:TODO改为用户名
+baseurl:      "/TODO" #TODO:根目录，改为用户名
+paginate:     1
+
+# About/contact
+author:
+  name:       TODO  #TODO名字
+  email:        TODO  #TODO邮箱
+  gitlab:     172.16.1.114:81/TODO/ #TODO:用户名
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+
+#Collection
+collections:
+  tags_page:
+      output: true
+
+#文章yml头默认参数
+defaults:
+    - scope:
+        path: ""
+        type: tags_page
+      values:
+        layout: page_tag
+        permalink: /tag/:title/
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: post
+        permalink: :categories/:title/
