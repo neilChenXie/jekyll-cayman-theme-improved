@@ -1,48 +1,12 @@
 ## Readme
 
-博客是基于Jekyll模版的。可通过fork此工程开始写世强博客
+This Jekyll Blog Template is based on [jekyll-cayman-theme](https://github.com/pietromenna/jekyll-cayman-theme)
 
-* [中文官方文档](http://jekyll.com.cn/)
+and Plugins:
 
-### 1 Folder structure
+* [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
 
-#### 1.1 Template
-
-> Only related to template, won't effect all wrote posts.
-
-##### 1.1.1 Page construct
-
-* `_includes`
-* `_layouts`
-
-##### 1.1.2 Static
-
-> no need to explain
-
-* `js`
-* `css`
-
-##### 1.1.3 Tag&Category page
-
-* `categories`
-
-	> Category index page
-
-* `tags`
-
-	> Tag index page
-
-#### 1.2 Site related
-
-> different from site to site
-
-* `public`
-* `_posts`
-* `_tages_page`
-
-	> Collection page for each tag	
-
-### 2 第一次配置
+### 1 Setup
 
 文件:
 
@@ -54,7 +18,7 @@
 
 > 将TODO换为自己的用户名
 
-### 3 写作
+### 2 Blog Writing
 
 在`_post`文件夹下写**markdown**文件。几个要点：
 
