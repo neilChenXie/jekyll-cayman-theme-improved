@@ -8,21 +8,34 @@
 Thumbs.db
 desktop.ini
 
-# VS Code
-.vscode/
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
 *.code-workspace
 
-# jekyll
-_site
-.sass-cache
-.jekyll-metadata
+
+# Bundler cache
+.bundle
+vendor
 Gemfile.lock
-.lightly
-.c_bin
-.classes
-logs
-*.log
+
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
 node_modules
-dist
-dist-ssr
-*.local
+package-lock.json
+
+
+
+# Misc
+_sass/vendors
+assets/js/dist
