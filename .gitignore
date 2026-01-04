@@ -1,0 +1,28 @@
+# Mac_OS
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.lightly
+.c_bin
+.classes
+logs
+*.log
+node_modules
+dist
+dist-ssr
+*.local
