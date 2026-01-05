@@ -10,17 +10,18 @@ This Jekyll Blog Template is based on [jekyll-cayman-theme](https://github.com/p
 
 > this 2 features are critical for a **complete** blog system
 
-and Plugins:
+Add Plugins:
 
 * [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
 
 ## Installation
 
-1. \_config.yml
+1. Change `CNAME` File
+2. \_config.yml
 
 > Modify all `TODO`
 
-2. Revise `.gitignore` File
+3. Revise `.gitignore` File
 
 Remove this part in `.gitignore` file:
 
@@ -31,7 +32,7 @@ README.md
 LICENSE
 favicon.ico
 ```
-3. Install & Test
+4. Install & Test
 
 ```bash
 # under root folder
@@ -40,6 +41,12 @@ bundle install
 # local run
 jekyll serve
 ```
+
+5. Github Test
+After Action Completes successfully
+
+URL:[username].github.io/[repo_name]
+
 ##  Example
 
 [Chen Blog](http://chen-node.com/)
