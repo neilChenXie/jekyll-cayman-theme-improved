@@ -1,12 +1,8 @@
-## Readme
+# Readme
 
 This Jekyll Blog Template is based on [jekyll-cayman-theme](https://github.com/pietromenna/jekyll-cayman-theme)
 
-and Plugins:
-
-* [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
-
-### Improved
+## Improved
 
 1. Add **Tag** feature
 2. Add **toc** for post
@@ -14,13 +10,28 @@ and Plugins:
 
 > this 2 features are critical for a **complete** blog system
 
-### 1 Setup
+and Plugins:
 
-1.1 \_config.yml
+* [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
+
+## Installation
+
+1. \_config.yml
 
 > Modify all `TODO`
 
-1.2 Install
+2. Revise `.gitignore` File
+
+Remove this part in `.gitignore` file:
+
+```.gitignore
+# Delete Below When Deploy
+_config.yml
+README.md
+LICENSE
+favicon.ico
+```
+3. Install & Test
 
 ```bash
 # under root folder
@@ -29,42 +40,41 @@ bundle install
 # local run
 jekyll serve
 ```
-
-### 2 Example
+##  Example
 
 [Chen Blog](http://chen-node.com/)
 
-#### 2.1 Index page
+### 2.1 Index page
 
 ![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example.png)
 
-#### 2.2 Table of Content on the left side
+### 2.2 Table of Content on the left side
 
 ![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example2.png)
 
-#### 2.3 Tag Cloud page
+### 2.3 Tag Cloud page
 
 ![](https://github.com/neilChenXie/jekyll-cayman-theme-improved/blob/master/public/image/README/example1.png)
 
-### 3 Folder structure
+##  Folder structure
 
-#### 3.1 Template
+### 3.1 Template
 
 > Only related to template, won't effect all wrote posts.
 
-##### 3.1.1 Page construct
+#### 3.1.1 Page construct
 
 * `_includes`
 * `_layouts`
 
-##### 3.1.2 Static
+#### 3.1.2 Static
 
 > no need to explain
 
 * `js`
 * `css`
 
-##### 3.1.3 Tag&Category page
+#### 3.1.3 Tag&Category page
 
 * `categories`
 
@@ -74,7 +84,7 @@ jekyll serve
 
 	> Tag index page
 
-#### 3.2 Site related
+### 3.2 Site related
 
 > different from site to site
 
